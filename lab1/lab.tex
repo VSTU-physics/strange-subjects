@@ -1,0 +1,105 @@
+\documentclass[a4paper, 12pt]{extarticle}
+
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{array}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1\textwidth}}
+    \renewcommand{\arraystretch}{1.2}
+\usepackage{multirow}
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{table}[h!]
+    \center
+    \begin{tabular}{|C{.5}|C{.2}|C{.25}|} \hline
+        \multirow{4}{*}{Лабораторная работа № 1}
+        & Студент, группа & Абдрахманов, Аликов, Туреев; Ф-1н \\ \cline{2-3}
+        & Дата выполнения & 10.09.14 \\ \cline{2-3}
+        & Подпись & \\ \cline{2-3}
+        \multirow{3}{*}{\parbox{.5\textwidth}
+        {\centering Измерение частоты и длительности сигналов
+                    при помощи частотометров ЧЗ-57 и ЧЗ-64}}
+        & Дата отчёта & \\ \cline{2-3}
+        & Оценка & \\ \cline{2-3}
+        & Подпись & \\ \hline
+    \end{tabular}
+\end{table}
+\begin{table}[h!]
+    \center
+    \caption{Измерение частоты частотометром ЧЗ-57}
+    \begin{tabular}{|C{.25}|C{.25}|} \hline
+        частота генератора, Гц & измеренное значение, Гц \\ \hline
+        700 & 690 \\
+        800 & 801 \\
+        900 & 890 \\
+        1000 & 1003 \\
+        1200 & 1140 \\
+        1400 & 1349 \\
+        1600 & 1558 \\
+        6000 & 5912 \\
+        20000 & 19579 \\
+        50000 & 48370 \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \center
+    \caption{Измерение длительности импульса частотометром ЧЗ-57}
+    \begin{tabular}{|C{.25}|C{.25}|} \hline
+        длительность импульса генератора, мкс
+            & измеренное значение, мкс \\ \hline
+        40 & 40 \\
+        50 & 50 \\
+        60 & 60 \\
+        100 & 94 \\
+        200 & 194 \\
+        300 & 278 \\
+        500 & 502 \\
+        600 & 607 \\
+        700 & 692 \\
+        1000 & 932 \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \center
+    \caption{Измерение частоты частотометром ЧЗ-64}
+    \begin{tabular}{|C{.25}|C{.25}|} \hline
+        частота генератора, Гц & измеренное значение, Гц \\ \hline
+        300 & 280,2 \\
+        400 & 386,1 \\
+        500 & 490,2 \\
+        600 & 594,0 \\
+        700 & 694,4 \\
+        800 & 806,2 \\
+        900 & 902,6 \\
+        1000 & 1006 \\
+        5000 & 4952 \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \center
+    \caption{Измерение длительности импульса частотометром ЧЗ-64}
+    \begin{tabular}{|C{.25}|C{.25}|} \hline
+        длительность импульса генератора, мкс
+            & измеренное значение, мкс \\ \hline
+        30 & 29,69 \\
+        40 & 39,83 \\
+        50 & 49,30 \\
+        60 & 58,92 \\
+        70 & 67,94 \\
+        80 & 75,71 \\
+        90 & 83,12 \\
+        300 & 310,2 \\
+        400 & 412,3 \\
+        500 & 510,3 \\
+        600 & 603,9 \\
+        700 & 701,6 \\
+        800 & 772,3 \\
+        900 & 843,2 \\ \hline
+    \end{tabular}
+\end{table}
+\end{document}
